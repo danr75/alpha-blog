@@ -1,1 +1,55 @@
+$navbar-default-bg: 004d99;
+
 @import "bootstrap";
+
+#logo {
+  float: left;
+  font-size: large;
+  color: #003366;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#logo:hover {
+  color:  #336699;
+  text-decoration: none;
+}
+
+.center {
+  text-align: center;
+}
+
+.jumbotron {
+  background-image: asset-url('fence1.jpg');
+  background-size: cover;
+  height: auto;
+}
+
+.jumbotron h1 {
+  color: #0c263f;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #0c263f;
+}
+
+footer a:hover {
+  color: #336699;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
