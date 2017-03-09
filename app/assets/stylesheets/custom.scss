@@ -1,18 +1,19 @@
-$navbar-default-bg: 004d99;
+$navbar-default-bg: #004d99;
 
+@import "bootstrap-sprockets";
 @import "bootstrap";
 
 #logo {
   float: left;
   font-size: large;
-  color: #003366;
+  color: #ffffff;
   text-transform: uppercase;
   letter-spacing: -1px;
   font-weight: bold;
 }
 
 #logo:hover {
-  color:  #336699;
+  color:  #b3ffff;
   text-decoration: none;
 }
 
@@ -39,6 +40,8 @@ footer {
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
   color: #0c263f;
+  position: relative;
+  bottom:0;
 }
 
 footer a:hover {
