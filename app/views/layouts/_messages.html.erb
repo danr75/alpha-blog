@@ -1,7 +1,15 @@
+<script type="text/javascript">
+  window.setTimeout(function() {
+  $("#alert_message").fadeTo(500, 0).slideUp(500, function(){
+    $(this).remove();
+  });
+}, 2000);
+</script>
+
 <div class="row">
   <div class="col-xs-18 col-xs-offset-1">
     <% flash.each do |name,msg| %>
-      <div class='alert alert-<%="#{name}" %>'
+      <div id="alert_message" class='alert alert-<%="#{name}" %>'
         <a href="#" class="close" data-dismiss="alert"></a>
         <%= content_tag :div, msg, :id => "flash_#{name}" if msg.is_a?(String) %>
       </div>
