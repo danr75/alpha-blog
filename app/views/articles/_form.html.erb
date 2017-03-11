@@ -1,5 +1,8 @@
 <%= render "shared/errors", obj: @article %>
-
+<div class="col-sm-offset-2 col-sm-10">
+  <%= link_to image_tag("arrow-back.png", size: "32"), articles_path%>
+  </br>
+</div>
 <div class='row'>
   <div class='col-xs-12'>
     <%= form_for(@article, :html => {class: "form-horizontal", role: "form"}) do |f| %>
@@ -25,8 +28,5 @@
       </div>
     </div>
     <%end%>
-    <div class="col-xs-4 col-xs-offset-4">
-      [<%= link_to "cancel request and return to articles listing", articles_path%>]
-    </div>
   </div>
 </div>
