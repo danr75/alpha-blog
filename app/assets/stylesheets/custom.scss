@@ -35,6 +35,21 @@ $navbar-default-bg: #004d99;
   font-weight: bold;
 }
 
+.article-actions {
+  border-top: 1px solid #eaeaea;
+  padding-top: 10px;
+}
+
+.description {
+  margin-top: 0;
+}
+
+.description-body {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  vertical-align: middle;
+}
+
 footer {
   margin-top: 45px;
   padding-top: 5px;
