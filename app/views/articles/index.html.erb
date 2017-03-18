@@ -2,4 +2,10 @@
 <div class="col-xs-offset-2">
 <h1> Listing all articles </h1>
 </div>
-<%= render 'article', obj: @article %>
+<div align="center">
+  <%= will_paginate  %>
+</div>
+<%= render 'article', obj: @articles %>
+<div align="center">
+  <%= will_paginate %>
+</div>

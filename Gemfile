@@ -7,6 +7,9 @@ end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.2'
+# add pagination to site
+gem 'will_paginate', '~> 3.1.0'
+gem 'bootstrap-will_paginate'
 # sprokect for bootstrap 4 alpha 6
 gem 'bcrypt', "~> 3.1.7"
 gem 'sprockets-rails', '~> 3.0', '>= 3.0.4'
