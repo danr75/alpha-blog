@@ -5,7 +5,7 @@ $navbar-default-bg: #1a343a;
 
 #logo {
   float: left;
-  font-size: large;
+  font-size:1.875em; 
   color: #d3dcde;
   text-transform: uppercase;
   letter-spacing: -1px;
@@ -22,6 +22,7 @@ $navbar-default-bg: #1a343a;
   color: #d3dcde;
   letter-spacing: -1px;
   font-weight: bold;
+  font-size:1.875em;
 }
 #art1:hover {
   color:  #ffffff;
